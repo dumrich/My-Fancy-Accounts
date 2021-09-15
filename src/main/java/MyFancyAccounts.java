@@ -7,5 +7,8 @@ public class MyFancyAccounts {
         int startDeposit = scanner.nextInt();
         double ir = scanner.nextDouble();
 
+        double fv = startDeposit * (ir + 1) * 10;
+
+        System.out.println("The Future Value is approximately: " + fv);
     }
 }
